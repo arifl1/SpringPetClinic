@@ -40,7 +40,7 @@ pipeline {
             
             steps{
                 
-                sh "java -jar ./target/*.jar/home/coder/.jenkins/workspace/prtclinicdeclarativepipeline/target/*jar"
+                sh "java -jar /home/coder/.jenkins/workspace/prtclinicdeclarativepipeline/target/*jar"
             }
         }
             

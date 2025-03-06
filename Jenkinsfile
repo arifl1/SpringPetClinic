@@ -1,7 +1,7 @@
 pipeline {
     
     agent any
-    tools {maven "mavenV3"}
+    tools {maven "m3"}
     stages{
         
         stage("checkout"){
@@ -40,7 +40,7 @@ pipeline {
             
             steps{
                 
-                sh "java -jar ./target/*.jar"
+                sh "java -jar ./target/*.jar/home/coder/.jenkins/workspace/prtclinicdeclarativepipeline/target/*jar"
             }
         }
             
